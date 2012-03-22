@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select
+{
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+abbr, acronym
+{
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+html { height:100%; width:100%;}
+body {height:100%; width:100%;}
+
+body { background-color: #e5cea5; }
+
+.tit {position: fixed;
+      top: 0px;
+      right: 87px;}
+
+#pre {position: absolute;
+      top: 80px;
+      right: 75px;}
+
+#catcont {position: absolute;
+      top: 125px;
+      left: 100px;}
+
+#cat {position: fixed;
+      top: 148px;
+      left: 123px;
+	  color: #EF4126;}
+
+.titles {position: absolute;
+	     top: 200px;
+	     left: 123px;
+         font-family: helvetica;
+         font-size: 24px;
+         color: #395C92;}
+
+.cloud {position: absolute;
+	    top: 450px;
+	    left: 33px;}
+
+#tags {position: fixed;
+       font-family: helvetica;
+       font-size: 24px;
+       color: #EF4126;
+       top: 480px;
+       left: 123px;}

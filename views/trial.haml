@@ -1,0 +1,36 @@
+!!!
+%html
+  %head
+    %title The Envelope
+    %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"trial.css" }
+
+
+  %body
+    .tit
+      %img{ :src => "/titre.png" }
+  
+    .container
+    
+      .previews
+        %img#pre{ :src=>"/preview.png" }
+     
+      .category
+        #catcont{ :src=>"/catcont.png" }
+        .titles
+          %strong 
+            %li#cat categories
+            %li research 
+            %li cooking:recipies under 100cal
+            %li movies
+            %li healthy living
+            %li writing: creative, reportage
+            %li fashion
+            %li do it yourself
+            %li home remedies
+      .cloud
+        %strong#tags
+          %li tag cloud:
+        %img{ :src=>"/cloud.png" }
+      
+  
+    
